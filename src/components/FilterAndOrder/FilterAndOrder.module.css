@@ -1,0 +1,14 @@
+.filterBox {
+    padding: 10px 10px;
+
+    background-color: #F4F3F3;
+}
+
+.title {
+    display: block;
+    text-align: start;
+}
+
+.filterBox select {
+    font-size: 1.1em;
+}

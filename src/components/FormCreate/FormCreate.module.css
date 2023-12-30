@@ -1,0 +1,184 @@
+.formBox {
+    width: 50%;
+    margin:auto;
+    font-size: 1.1em;
+    background-color: #F4F3F3;
+    border: 4px solid white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.attributeBox {
+    padding-top: 5px;
+}
+
+.inputLine {
+    display: flex;
+}
+
+.inputLine .labelBox {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    
+}  
+
+.inputLine .inputBox {
+    width: 60%;
+    display: flex;
+}
+
+.inputLine .inputBox input {
+    width: 75%;
+    
+    font-size: 1em;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    margin-left: 20px;
+}
+
+.inputLine .inputBox input:focus {
+    outline: none;
+}
+
+.inputLine .selectBox {
+    width: 60%;
+    display: flex;
+}
+
+.inputLine .selectBox span {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.inputLine .selectBox select {
+    width: 35%;
+    
+    font-size: 1em;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+.inputLine .selectBox select:first-child {
+    margin-left: 20px;
+} 
+
+.inputLine .selectBox select:focus {
+    outline: none;
+}
+
+.errorLine {
+    display: flex;
+}
+
+.errorLine .labelBox {
+    width: 40%;
+}
+
+.errorLine .errorBox {
+    width: 60%;
+    text-align: start;
+    display: flex;
+    align-items: center;
+
+}
+
+.buttonsBox .errorBox {
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorMessageBox {
+    opacity: 0;
+    transition:  opacity 0.2s ease-in-out;
+    min-height: 0.7em;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 3px;
+}
+
+.errorMessage {
+    color: rgba(255, 0, 0, 0.63);
+    font-size: 0.7em;
+    margin-left: 20px;
+    
+}
+
+.showError {
+    opacity: 1;
+}
+
+.loadingFormImage {
+    height: 0.9em;
+    margin-left: 20px;
+}
+
+.inputLine .imageBox {
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.inputLine .imageBox input {
+    width: 75%;
+    
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    margin-left: 20px;
+}
+
+.inputLine .imageBox .imagen {
+    width: 50%;
+    
+    margin-left: 20px;
+
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.inputLine .imageBox .imagena {
+    width: 50%;
+    
+    margin-left: 20px;
+
+    border: 1px solid rgb(206, 206, 206);
+    border: 5px solid black;
+}
+.inputLine .imageBox button {    
+    margin-left: 10px;
+    padding: 3px 6px;
+    
+}
+
+.inputLine .imageBox .loadingFormImage {    
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.inputLine .buttonsBox {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.inputLine .buttonsBox button {
+    margin-left: 20px;
+    padding: 10px 25px;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+    line-height: 1.25;
+    background: #0A4481;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.inputLine .buttonsBox button:disabled {
+    background-color: #F4F3F3;
+}

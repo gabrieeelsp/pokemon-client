@@ -1,0 +1,52 @@
+.attributeBox {
+}
+
+.inputLine {
+    display: flex;
+}
+
+.inputLine .labelBox {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+
+.inputLine .labelBox label{
+    margin-right: 20px;
+}
+
+.inputLine .inputBox {
+    width: 60%;
+    display: flex;
+}
+
+.inputLine .inputBox input {
+    width: 70%;
+    
+    font-size: 1em;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.inputLine .inputBox input:focus {
+    outline: none;
+}
+
+.errorLine {
+    display: flex;
+}
+
+.errorLine .labelBox {
+    width: 45%;
+}
+
+.errorLine .errorBox {
+    width: 55%;
+    text-align: start;
+}
+
+.errorMessage {
+    color: rgba(255, 0, 0, 0.63);
+    font-size: 0.7em;
+}

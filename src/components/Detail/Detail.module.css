@@ -1,0 +1,174 @@
+.card {
+
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    border: 3px solid white;
+    background-color: #F4F3F3;
+    border-radius: 20px;
+    
+    align-items: center;
+
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+
+    position: relative;
+    
+}
+
+.cardVisible {
+    opacity: 1;
+}
+
+.cardImage {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardImage img {
+    width: 100%;
+    
+}
+
+.cardData {
+    width: 50%;
+}
+
+.cardData .nameTitle {
+    font-size: 2.2em;
+}
+
+.cardData .valuesBox {
+    width: 70%;
+    margin: auto;
+}
+
+
+
+
+.medidasBox {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    border-top: 1px solid rgb(179, 179, 179);
+}
+
+.medidasBox .medidaBox {
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.typesBox {
+    
+    margin: auto;
+    margin-top: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.typesBox div {
+    margin: 3px;
+}
+
+.typesBox .scale:hover {
+    transform: scale(1.1);
+}
+
+.greyIcon img {
+    opacity: 0.3;
+    filter: grayscale(1);
+    
+}
+
+.editremoveButtons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.editremoveButtons span {
+    font-size: 0.8em;
+    padding: 2px 5px;
+    color: #F4F3F3;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.editremoveButtons .editButton {
+    background-color: green;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.editremoveButtons .removeButton {
+    background-color: red;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.editremoveButtons .confirmationButton {
+    
+    color: red;
+}
+.editremoveButtons .hide {
+    visibility: hidden;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardData {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardData {
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+    .cardData {
+        width: 50%;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1700px) {
+    .card {
+        width: 60%;
+    }
+}

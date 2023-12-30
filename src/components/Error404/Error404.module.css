@@ -1,0 +1,23 @@
+.emptyBox {
+    width: 60%;
+    margin: auto;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+}
+
+.emptyBox .imageBox {
+    width: 60%;
+    margin: auto;
+}
+
+.emptyBox .imageBox img {
+    width: 90%;
+}
+
+.emptyBox span {
+    font-size: 1.2em;
+}

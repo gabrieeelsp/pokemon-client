@@ -1,0 +1,11 @@
+.searchingImage {
+    height: 1.5em;
+    top: 50%;
+    position: absolute;
+}
+
+.error404 {
+    font-size: 1.5em;
+    top: 50%;
+    position: absolute;
+}

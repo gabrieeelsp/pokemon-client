@@ -1,0 +1,32 @@
+button {
+    font-size: 1em;
+    margin: 10px 5px;
+    padding: 4px 0;
+    background-color: white;
+    color: #385aaa;
+    border: 1px solid #385aaa45;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:disabled {
+    color: #385aaa7f;
+    cursor: default;
+}
+
+.arrowButton {
+    width: 60px;
+}
+
+.selected {
+    background-color: #385aaa;
+    color: white;
+    cursor: default;
+}
+
+.numberButton {
+    width: 40px;
+}
+
+
+

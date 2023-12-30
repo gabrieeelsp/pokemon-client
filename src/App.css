@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container { width: 95vw; }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container { width: 90vw; }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container { width: 90vw; }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container { width: 90vw; }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container { width: 80vw; }
+}
+
+.container {
+  margin: auto;
+}
+.container {
+  min-height: calc(100vh - 140px);
+  /* background-color: aliceblue; */
+}

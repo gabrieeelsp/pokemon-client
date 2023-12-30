@@ -1,0 +1,106 @@
+.filterBox {
+    background-color: white;
+
+    text-align: start;
+
+    padding: 15px;
+
+    border: 4px solid #F4F3F3;
+
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.optionBox label, .optionBoxFunction {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.optionBox label span {
+    margin-left: 10px;
+}
+
+.optionBox input, .optionBoxFunction input   {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.optionBoxFunction .filterFunctionImage {
+    height: 20px;
+}
+
+.optionBoxFunction .buttonFunction {
+    width: 60px;
+    font-size: 0.8em;
+}
+.optionBoxFunction .selected {
+    background-color: #385aaa;
+    color: white;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .optionsList {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .optionBox {
+        width: calc(50% - 10px);
+        margin: 5px 5px;
+    }
+    .optionBoxFunction {
+        width: calc(33% - 10px);
+        margin: 5px 5px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .optionsList {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .optionBox {
+        width: calc(33% - 10px);
+        margin: 5px 5px;
+    }
+    .optionBoxFunction {
+        width: calc(33% - 10px);
+        margin: 5px 5px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .optionBox {
+        width: 80%;
+        
+    }
+    .optionBoxFunction {
+        width: calc(33% - 10px);
+        margin: 5px 5px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1700px) {
+    
+}
