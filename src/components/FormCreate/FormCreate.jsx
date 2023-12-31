@@ -156,7 +156,7 @@ const FormCreate = (props) => {
 
     const [typeOptions, setTypeOptions] = useState([]);
     useEffect(() => {
-        axios.get('http://localhost:3001/types')
+        axios.get('https://pokemon.backhub.net.ar/types')
             .then((resp) => setTypeOptions(resp.data) )
     }, [])
     
