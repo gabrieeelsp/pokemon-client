@@ -5,6 +5,10 @@ Para esto hace uso de la api https://pokeapi.co de uso libre y gratuito.
 Además utiliza un backend para almacenar los pokemones creados.
 Este proyecto se desarrollo como como proyecto individual en el cursado de la carrera de desarrollador Fullstack, en la academia https://SoyHenry.com.
 
+## Demo
+- Puedes acceder a la api de pokemon en el siguiente enlace https://pokemon.backhub.net.ar
+- O pueder acceder al proyecto completo desde https://pokemon.gabrieeelsp.dev
+
 ## Tecnologías Utilizadas
 - HTML
 - CSS
